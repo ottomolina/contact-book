@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: block;
+}
+
+form label {
+    font-family: 'Quicksand', sans-serif;
+}
+
+form input {
+    width: 9em;
+    height: 2em;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+.div-submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.submit {
+    width: 8em;
+    height: 2em;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    background-color: #6E6E6E;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.btn-option {
+    width: 5em;
+}
+
+table tr th {
+    border: 1px solid #D5D9D9;
+    width: 150px;
+    height: 25px;
+    color: white;
+    background-color: #084B8A;
+}
+
+td {
+    border: 1px solid #D5D9D9;
+    width: 100px;
+    height: 25px;
+}

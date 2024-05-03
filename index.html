@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <h2>Contact Book</h2>
+    <div class="input-container">
+        <form action="javascript:submit()">
+            <label for="names">Name:</label>
+            <input type="text" id="names" name="names" placeholder="Write names">
+            <label for="lastname">Last name:</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Write last names">
+            <label for="phone">Phone number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Write phone number"><br>
+            <div class="div-submit">
+                <input class="submit" type="submit" value="Save">
+            </div>
+        </form>
+        <br>
+    </div>
+    <div class="list-container">
+        <table id="tblData" class="tbl-data">
+            <thead>
+                <tr>
+                    <th>Names</th>
+                    <th>Last names</th>
+                    <th>Phone number</th>
+                    <th>Options</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
